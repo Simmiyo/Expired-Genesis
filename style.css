@@ -179,3 +179,7 @@ body
 {
     background-color: cadetblue;
 }
+
+.menu{
+	z-index: 1;
+}
