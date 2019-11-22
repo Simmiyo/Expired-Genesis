@@ -34,7 +34,7 @@ body {
 }
 
 .row {
-    background-image: url("/home/simona/Documents/TW/art-history-collage.jpg");
+    background-image: url("art-history-collage.jpg");
     background-repeat: round;
 }
 
