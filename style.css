@@ -1,0 +1,181 @@
+body
+{
+  min-height: fit-content;
+  min-width: fit-content;
+  background-color: #cccccc;
+  background-image: radial-gradient(aqua, pink, turquoise);
+}
+
+h1
+{
+    font-family: cursive;
+    font-variant: small-caps;
+    font-size: 10.5vh;
+    font-weight: 600;
+    font-stretch: extra-expanded;
+    padding: 4.5vh 9vh 6.7vh 26.3vh;
+    text-shadow: 0.6vh 0.6vh grey;
+    color: aliceblue;
+}
+
+h1 img
+{
+    float: left;
+}
+
+.png
+{
+    position: relative;
+    background: transparent;
+    background-image: url("/home/simona/Documents/TW/fa84b3da471fbf963155af9fea205bb7.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+}
+
+#em
+{
+    position: relative;
+    float: right;
+    background-color: white;
+    opacity: 0.6;
+    width: 60px;
+}
+
+#fancyline{
+    adding-left: 20vw;
+}
+
+#em:hover
+{
+    opacity: 1;
+}
+
+
+
+.rainbow
+{
+    background: red;
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    /*-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+    font-size: 12vw;
+    text-align: right;
+}
+
+@keyframes anim1
+{
+    100%,0%{
+			background-color: rgb(255,0,0);
+            color: rgb(0,255,255);
+		}
+		8%{
+			background-color: rgb(255,127,0);
+            color: rgb(0,128,255);
+		}
+		16%{
+			background-color: rgb(255,255,0);
+            color: rgb(0,0,255);
+		}
+		25%{
+			background-color: rgb(127,255,0);
+            color: rgb(128,0,255);
+		}
+		33%{
+			background-color: rgb(0,255,0);
+            color: rgb(255,0,255);
+		}
+		41%{
+			background-color: rgb(0,255,127);
+            color: rgb(255,0,128);
+		}
+		50%{
+			background-color: rgb(0,255,255);
+            color: rgb(255,0,0);
+		}
+		58%{
+			background-color: rgb(0,127,255);
+            color: rgb(255,128,0);
+		}
+		66%{
+			background-color: rgb(0,0,255);
+            color: rgb(255,255,0);
+		}
+		75%{
+			background-color: rgb(127,0,255);
+            color: rgb(128,255,0);
+		}
+		83%{
+			background-color: rgb(255,0,255);
+            color: rgb(0,255,0);
+		}
+		91%{
+			background-color: rgb(255,0,127);
+            color: rgb(0,255,128);
+		}
+}
+
+h2
+{
+    animation: anim1 33s infinite;
+    font-size: 14vh;
+    font-weight: 100;
+}
+
+p
+{
+    font-size: 10vh;
+    font-weight: 100;
+}
+
+.left img
+{
+    height: 60vh;
+    width: 100vh;
+    float: left;
+    padding-right: 6vh;
+    border-radius: 4vh;
+}
+
+.left, .right
+{
+    height: 75;
+    display: block;
+    float: left;
+}
+
+.left p
+{
+    display: inline;
+    padding: 3.7vh 7.5vh 11.2vh 14.9vh;
+    text-align: justify;
+    word-break:keep-all;
+    top: 0%;
+}
+
+h4
+{
+    font-size: 8vw;
+    font-weight: 100;
+}
+
+.right img
+{
+    height: 90vh;
+    width: 120vh;
+    float: right;
+    padding-left: 6vh;
+    border-radius: 50%;
+}
+
+.right p
+{
+    padding: 3.7vh 14.9vh 11.2vh 7.5vh;
+    text-align:left;
+    word-break: keep-all;
+}
+
+body
+{
+    background-color: cadetblue;
+}

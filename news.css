@@ -1,0 +1,137 @@
+p 
+{
+  margin-bottom: 30vh;
+  margin-right: 15vw;
+  margin-left: 15vw;
+  font-size: 10vh;
+  padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  border-color: bisque;
+  border-style: dotted solid;
+  border-width: thick;
+   
+}
+
+img
+{
+    margin-top: 10vh;
+    margin-left: 26vh;
+}
+
+body
+{
+  min-height: fit-content;
+  min-width: fit-content;
+  background-color: #cccccc;
+}
+
+#crossfade {
+  position:relative;
+  height:90vh;
+  width:64vw;
+  margin:0 auto;
+  right: 12vw;
+  top: -35vh;
+}
+
+.menu{
+    z-index: 1;
+}
+
+#crossfade img {
+  position:absolute;
+  left:0;
+  width: 100%;
+  height: 100%;
+      animation-name: FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 60s
+}
+
+@keyframes FadeInOut {
+  0% {
+    opacity:1;
+  }
+  4.16% {
+    opacity:1;
+  }
+  5% {
+    opacity:0;
+  }
+  99.16% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#crossfade img:nth-of-type(1) {
+  animation-delay: 57s;
+}
+#crossfade img:nth-of-type(2) {
+  animation-delay: 54s;
+}
+#crossfade img:nth-of-type(3) {
+  animation-delay: 51s;
+}
+#crossfade img:nth-of-type(4) {
+  animation-delay: 48s;
+}
+#crossfade img:nth-of-type(5) {
+  animation-delay: 45s;
+}
+#crossfade img:nth-of-type(6) {
+  animation-delay: 42s;
+}
+#crossfade img:nth-of-type(7) {
+  animation-delay: 39s;
+}
+#crossfade img:nth-of-type(8) {
+  animation-delay: 36s;
+}
+#crossfade img:nth-of-type(9) {
+  animation-delay: 33s;
+}
+#crossfade img:nth-of-type(10) {
+  animation-delay: 30s;
+}
+#crossfade img:nth-of-type(11) {
+  animation-delay: 27s;
+}
+#crossfade img:nth-of-type(12) {
+  animation-delay: 24s;
+}
+#crossfade img:nth-of-type(13) {
+  animation-delay: 21s;
+}
+#crossfade img:nth-of-type(14) {
+  animation-delay: 18s;
+}
+#crossfade img:nth-of-type(15) {
+  animation-delay: 15s;
+}
+#crossfade img:nth-of-type(16) {
+  animation-delay: 12s;
+}
+#crossfade img:nth-of-type(17) {
+  animation-delay: 9s;
+}
+#crossfade img:nth-of-type(18) {
+  animation-delay: 6s;
+}
+#crossfade img:nth-of-type(19) {
+  animation-delay: 3s;
+}
+#crossfade img:nth-of-type(20) {
+  animation-delay: 0s;
+}
+
+@media only screen and (max-width: 600px) {
+    #crossfade {
+        right: 40vw;
+    }
+}
